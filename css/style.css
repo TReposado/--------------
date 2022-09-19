@@ -426,4 +426,45 @@ template {
   height: 240px;
   width: auto;
   padding-left: 77px;
+}
+
+.contact__title {
+  font-size: 22px;
+  color: rgb(65, 61, 75);
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 28px;
+  text-align: center;
+}
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contact__button {
+  border: 1px solid;
+  height: 40px;
+  max-width: 120px;
+  border-color: rgb(0, 224, 208);
+  border-radius: 2px;
+  background-image: none;
+  background: transparent;
+  font-size: 16px;
+  color: rgb(0, 224, 208);
+  margin-bottom: 100px;
+}
+
+.footer {
+  padding: 70px 0;
+  background-image: url(../img/footer-bg.jpg);
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__copyright {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
 }/*# sourceMappingURL=style.css.map */
